@@ -18,3 +18,9 @@ LVs:
     lv_state: present
     lv_stripe_size: 64K
     
+   - lv_name: test_samir
+    lv_partitions: 1
+    vg_name: rootvg
+    lv_state: present
+    lv_stripe_size: 64K
+    
